@@ -40,7 +40,6 @@
     border-radius: 2rem;
     margin-top: 20px;
     cursor: pointer;
-    padding: 2px;
     justify-content: space-between;
   }
   button:hover {
@@ -115,8 +114,8 @@
     }
   
     button {
-      font-size: 12px;
-      padding: 20px;
+      font-size: 16px;
+      padding: 10px;
     }
   
     #education-content h2,
