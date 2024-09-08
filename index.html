@@ -55,6 +55,62 @@
         <li>TYPESCRIPT : 60%</li>
       </ul>
     </section>
-    <section></section>
+    <section id ="dyanmic-resume">
+        <h1>Dynamic Resume Build Your Perfect Resume</h1>
+
+    <form id="resumeForm">
+      <!-- 1: section  personal information -->
+      <fieldset>
+        <h2>Personal Information</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="fatherName">Father Name:</label>
+        <input type="text" id="fatherName" name="fatherName" required /><br />
+
+        <label for="dateOFbirth">Date of Birth:</label>
+        <input type="text" id="dateOFbirth" name="dateOFbirth" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required /><br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" required /><br />
+
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" />
+      </fieldset>
+
+      <!-- 2: Education -->
+      <fieldset>
+        <h2>Education</h2>
+        <label for="education">Qualification</label>
+        <textarea name="text" rows="6" id="education" required></textarea>
+      </fieldset>
+
+      <!-- 3: Experience -->
+      <fieldset>
+        <h2>Experience</h2>
+        <label for="experience">Job Experience</label>
+        <textarea name="text" rows="6" id="experience" required></textarea>
+      </fieldset>
+
+      <!-- 4: Skills -->
+      <fieldset>
+        <h2>Skills</h2>
+        <label for="skills">Skills</label>
+        <textarea name="text" rows="6" id="skills" required></textarea>
+      </fieldset>
+
+      <!-- Generate button -->
+      <p>Fill out your details and press Generate Resume</p>
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resumeOutput">
+
+    <script src="script.js"></script>
+    </section>
   </body>
 </html>

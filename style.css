@@ -1,3 +1,4 @@
+/* static resume builder  */
 * {
     margin: 0;
     padding: 0;
@@ -129,4 +130,148 @@
       font-size: 12px;
     }
   }
+  /* dynamic resume builder styling  */
+#dyanmic-resume {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-transform: uppercase;
   
+}
+
+ #dyanmic-resume h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: gold;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    padding: 40px;
+  }
+  fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(169, 227, 235);
+  }
+   #resumeForm h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #resumeForm label {
+    display: block;
+    margin-top: 10px;
+    color: indianred;
+    font-size: 22px;
+    text-align: left;
+  }
+  input,
+  textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  #resumeForm p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: black;
+  }
+  #resumeForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(169, 227, 235);
+    color: black;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  #resumeForm button:hover {
+    background-color: rgb(173, 173, 192);
+  }
+  
+  @media (max-width: 768px) {
+    #dyanmic-resume h1 {
+      font-size: 24px;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    fieldset {
+      padding: 15px;
+    }
+  
+    #resumeForm  h2 {
+      font-size: 1.5rem;
+    }
+  
+    #resumeForm  label {
+      font-size: 18px;
+    }
+  
+    input,
+    textarea {
+      font-size: 14px;
+    }
+  
+    #resumeForm  p {
+      font-size: 16px;
+    }
+  
+    #resumeForm  button {
+      font-size: 18px;
+    }
+  }
+/*  output  resume styling */
+  #resumeOutput{
+    margin-top: 10rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px ;
+    border-radius: 8px;
+    background-color: whitesmoke;  
+  }
+
+  #resumeOutput {
+    line-height: 1.5;
+    color:black;
+  }
+  
+  #resumeOutput h2 {
+    color: gold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 28px;
+  }
+  #resumeOutput h3{
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+      }
+  #resumeOutput p {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+  }  
